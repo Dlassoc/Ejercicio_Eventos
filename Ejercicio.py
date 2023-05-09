@@ -1,5 +1,6 @@
 from typing import Dict, Any
-
+#The strip() method removes any leading (spaces at the beginning) and trailing (spaces at the end) characters (space is the default leading character to remove) biografy: https://www.w3schools.com/python/ref_string_strip.asp
+#Por eso lo usaremos para eliminar los espacios :)
 class AnalizadorEventos:
   def __init__(self, nombre_archivo: str):
        self.nombre_archivo = nombre_archivo
